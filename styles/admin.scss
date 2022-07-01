@@ -1,0 +1,121 @@
+#admin {
+  padding-top: 100px;
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .action {
+    .btn-modal {
+      padding: 8px;
+      color: white;
+      background: #2a9d8f;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+  table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    td {
+      border: 1px solid #333;
+      padding: 6px;
+
+      span {
+        color: #2a9d8f;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.modal {
+  display: none;
+  height: 100vh;
+  background: rgba(#333, 0.4);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  // display: flex;
+  align-items: center;
+  justify-content: center;
+  .wrapper {
+    background-color: white;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    .modal-header {
+      font-size: 24px;
+      padding-bottom: 10px;
+      box-shadow: 0px 4px 2px -3px rgba(#333, 0.2);
+      margin-bottom: 30px;
+    }
+    .modal-body {
+      button {
+        padding: 8px;
+        color: white;
+        background: #2a9d8f;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      input,
+      textarea {
+        padding: 8px;
+        width: 100%;
+        border: 1px solid #2a9d8f;
+        &.test-name {
+          margin-bottom: 10px;
+        }
+      }
+      textarea {
+        margin-bottom: 8px;
+      }
+      .question-add-form {
+        margin-bottom: 10px;
+        .question-form {
+          margin-top: 10px;
+          // border-top: 1px solid #333;
+          padding-top: 8px;
+          textarea {
+            width: 100%;
+          }
+          .code {
+            margin-top: 10px;
+          }
+          .input-group {
+            margin-bottom: 10px;
+            display: flex;
+            // align-items: center;
+            line-height: 34px;
+            input {
+              border-left: none;
+            }
+            span {
+              padding: 0px 10px;
+              background: rgba(#b1a7a6, 0.1);
+              border: 1px solid #2a9d8f;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .modal-actions {
+      padding-top: 10px;
+      margin-top: 20px;
+      box-shadow: 0px -4px 2px -3px rgba(#333, 0.2);
+      display: flex;
+      justify-content: flex-end;
+      a {
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 4px;
+        &.btn-submit {
+          background: #e9c46a;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

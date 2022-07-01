@@ -1,0 +1,266 @@
+body {
+  height: 100vh;
+  background: rgba(38, 70, 83, 0.9);
+  color: white;
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+main .left {
+  width: 60%;
+}
+
+main .left .question-area .question-num {
+  border-radius: 4px;
+  border: 1px solid #f4a261;
+  padding: 10px 15px;
+}
+
+main .left .question-area .nav li {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+main .left .question-area .question-content {
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #f4a261;
+  padding: 10px 15px;
+  height: 491px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: 20px;
+}
+
+main .left .question-area .question-content p {
+  z-index: 999;
+}
+
+main .left .answer-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -10px;
+  margin-top: 10px;
+}
+
+main .left .answer-area div {
+  width: 50%;
+  padding: 10px;
+}
+
+main .left .answer-area div span {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #f4a261;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+main .left .answer-area div span.correct {
+  -webkit-animation: correct 0.7s forwards ease-in alternate 5;
+          animation: correct 0.7s forwards ease-in alternate 5;
+}
+
+main .left .answer-area div span.disable {
+  opacity: 0.3;
+}
+
+main .left .answer-area div span.chosen {
+  background: #9c6644;
+}
+
+main .left .answer-area div span:hover {
+  background: #9c6644;
+}
+
+main .right {
+  width: 38%;
+}
+
+main .right .wrapper {
+  padding: 2px;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+main .right .wrapper:after {
+  content: "";
+  background-image: conic-gradient(#4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: play 2s forwards linear infinite;
+          animation: play 2s forwards linear infinite;
+  z-index: -1;
+}
+
+main .right .list-question {
+  background: #264653;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 532px;
+}
+
+main .right .list-question span {
+  margin-bottom: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+main .right .list-question span.chosen {
+  color: #06d6a0;
+  font-size: 30px;
+}
+
+main .right .list-question span.true {
+  color: #06d6a0;
+}
+
+main .right .list-question span.false {
+  color: #e63946;
+}
+
+main .right .list-question span.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+main .right .list-question span.line::after {
+  content: "";
+  background: #f4a261;
+  height: 1px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 10px;
+}
+
+main .right .list-question span.line::before {
+  content: "";
+  background: #f4a261;
+  height: 1px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 10px;
+}
+
+main .right .tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+main .right .tools span {
+  cursor: pointer;
+  margin-right: 20px;
+  border: 1px solid #06d6a0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+@-webkit-keyframes correct {
+  from {
+    opacity: 0.3;
+    background: rgba(6, 214, 160, 0.4);
+  }
+  to {
+    opacity: 1;
+    background: #06d6a0;
+  }
+}
+
+@keyframes correct {
+  from {
+    opacity: 0.3;
+    background: rgba(6, 214, 160, 0.4);
+  }
+  to {
+    opacity: 1;
+    background: #06d6a0;
+  }
+}
+
+@-webkit-keyframes play {
+  from {
+    -webkit-transform: rotate(0deg) scale(2);
+            transform: rotate(0deg) scale(2);
+  }
+  to {
+    -webkit-transform: rotate(-360deg) scale(2);
+            transform: rotate(-360deg) scale(2);
+  }
+}
+
+@keyframes play {
+  from {
+    -webkit-transform: rotate(0deg) scale(2);
+            transform: rotate(0deg) scale(2);
+  }
+  to {
+    -webkit-transform: rotate(-360deg) scale(2);
+            transform: rotate(-360deg) scale(2);
+  }
+}
+/*# sourceMappingURL=style.css.map */

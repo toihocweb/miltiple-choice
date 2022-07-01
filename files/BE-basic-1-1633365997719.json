@@ -1,0 +1,160 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "description": "kết quả của đoạn code sau",
+      "answers": { "a": "10", "b": "100", "c": "lỗi", "d": "" },
+      "code": "let a = 10;\nlet a = 100;\nconsole.log(a)",
+      "correct": "c"
+    },
+    {
+      "id": 2,
+      "description": "có thể lấy data từ req.body với method GET không",
+      "answers": {
+        "a": "có",
+        "b": "không",
+        "c": "có nhưng luôn undefined",
+        "d": ""
+      },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 3,
+      "description": "method nào có thể dùng để cho update dữ liệu",
+      "answers": { "a": "put", "b": "patch", "c": "post", "d": "cả 3" },
+      "code": "",
+      "correct": "d"
+    },
+    {
+      "id": 4,
+      "description": "giả sử user đã đăng nhập, nhưng không có quyền(permission) để vào 1 tài nguyên nào đó thì nên trả về status code gì",
+      "answers": { "a": "401", "b": "500", "c": "403", "d": "400" },
+      "code": "",
+      "correct": "c"
+    },
+    {
+      "id": 5,
+      "description": "user chưa đăng nhập nhưng muốn sử dụng tài nguyên thì trả về status code gì",
+      "answers": { "a": "401", "b": "500", "c": "403", "d": "400" },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 6,
+      "description": "tạo user thành công thì nên trả về status code là ",
+      "answers": { "a": "201", "b": "500", "c": "403", "d": "400" },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 7,
+      "description": "validation nên được thực hiện ở đâu",
+      "answers": {
+        "a": "Front End",
+        "b": "Back End",
+        "c": "Front End và Back End",
+        "d": "Front End hoặc Back End"
+      },
+      "code": "",
+      "correct": "c"
+    },
+    {
+      "id": 8,
+      "description": "Query nào sau đây dùng để tìm kiếm user có tuổi lớn hơn 18 ",
+      "answers": {
+        "a": "db.users.find({age > 18})",
+        "b": "db.users.find({age : {$gt > 18}})",
+        "c": "db.users.find({age : {$lt > 18}})",
+        "d": "db.users.find({age : {$gt: 18}})"
+      },
+      "code": "",
+      "correct": "d"
+    },
+    {
+      "id": 9,
+      "description": "Query nào sau đây dùng để thêm 1 user",
+      "answers": {
+        "a": "db.users.create",
+        "b": "db.users.insert",
+        "c": "cả A và B ",
+        "d": "db.users.createOne"
+      },
+      "code": "",
+      "correct": "b"
+    },
+    {
+      "id": 10,
+      "description": "phát biểu nào sau đây là đúng",
+      "answers": {
+        "a": "payload trong jwt là bảo mật",
+        "b": "có thể lấy thông tin trong payload của jwt",
+        "c": "jwt chỉ có 1 thuật toán duy nhất để mã hoá",
+        "d": "có thể tạo 1 jwt mà không cần chữ kí"
+      },
+      "code": "",
+      "correct": "b"
+    },
+    {
+      "id": 11,
+      "description": "kiểu nào không có trong mongoose Schema Type",
+      "answers": {
+        "a": "String",
+        "b": "Enum",
+        "c": "ObjectId",
+        "d": "Array"
+      },
+      "code": "",
+      "correct": "b"
+    },
+    {
+      "id": 12,
+      "description": "kiểu export nào sau đây là sai",
+      "answers": {
+        "a": "exports.hello = () => {}",
+        "b": "module.exports.hello = () => {}",
+        "c": "exports { name: 'David' }",
+        "d": "module.exports = 'hello'"
+      },
+      "code": "",
+      "correct": "c"
+    },
+    {
+      "id": 13,
+      "description": "với kiểu export như sau module.exports.name = 'hello', cách import nào sau đây chưa đúng",
+      "answers": {
+        "a": "const test = require('./hello')",
+        "b": "const name = require('./hello')",
+        "c": "const test = require('./hello').name",
+        "d": "const { hello } = require('./hello')"
+      },
+      "code": "",
+      "correct": "d"
+    },
+    {
+      "id": 14,
+      "description": "app.use('/product', middleware), middleware sau sẽ áp dụng đc cho",
+      "answers": {
+        "a": "app.get('/product/all')",
+        "b": "app.post('/products')",
+        "c": "app.get('/shop/product')",
+        "d": "app.post('/product/create')"
+      },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 15,
+      "description": "khai báo app.get('/test'), khi gọi http://localhost:3000/test?id=1, biểu thức nào đúng",
+      "answers": {
+        "a": "req.params === 1",
+        "b": "req.query === 1",
+        "c": "req.body === 1",
+        "d": "req.query === '1'"
+      },
+      "code": "",
+      "correct": "d"
+    }
+  ],
+  "image": "https://i-ione.vnecdn.net/2021/03/06/1-1543-1615005095.jpg"
+}

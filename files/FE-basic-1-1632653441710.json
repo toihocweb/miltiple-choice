@@ -1,0 +1,150 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "description": "Có bao nhiêu cách nhúng CSS",
+      "answers": { "a": "1", "b": "2", "c": "3", "d": "4" },
+      "code": "",
+      "correct": "c"
+    },
+    {
+      "id": 2,
+      "description": "Thẻ body có phải là một HTML Semantic hay không",
+      "answers": { "a": "có", "b": "không", "c": "", "d": "" },
+      "code": "",
+      "correct": "b"
+    },
+    {
+      "id": 3,
+      "description": "HTML là gì?",
+      "answers": {
+        "a": "Ngôn ngữ lập trình",
+        "b": "IDE",
+        "c": "Bộ nhớ",
+        "d": "Ngôn ngữ đánh dấu siêu văn bản"
+      },
+      "code": "",
+      "correct": "d"
+    },
+    {
+      "id": 4,
+      "description": "Thẻ nào thường dùng làm tiêu đề cho bài viết",
+      "answers": {
+        "a": "Heading",
+        "b": "Paragraph",
+        "c": "Link",
+        "d": "Image"
+      },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 5,
+      "description": "Cách viết transition nào không hợp lệ",
+      "answers": {
+        "a": "transition: width 2s;",
+        "b": "transition: width 2s, height 0.3s;",
+        "c": "transition: 0.3s;",
+        "d": "transition: width 2s / height 0.3s;"
+      },
+      "code": "",
+      "correct": "d"
+    },
+    {
+      "id": 6,
+      "description": "h2 có font-size mặc định là",
+      "answers": { "a": 24, "b": 22, "c": 16, "d": 32 },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 7,
+      "description": "cách viết sau là đúng hay sai background-image: url('1.jpg') no-repeat center",
+      "answers": { "a": "đúng", "b": "sai" },
+      "code": "",
+      "correct": "b"
+    },
+    {
+      "id": 8,
+      "description": "khi nào sử dụng được z-index",
+      "answers": {
+        "a": "Chỉ khi thẻ cha có position: absolute",
+        "b": "Thẻ cha có position hoặc display: flex",
+        "c": "Khi thẻ đó có display: flex",
+        "d": "Khi thẻ đó có position hoặc thẻ cha có display: flex"
+      },
+      "code": "",
+      "correct": "d"
+    },
+    {
+      "id": 9,
+      "description": "Thuộc tính nào không có trong transform",
+      "answers": {
+        "a": "zoom",
+        "b": "rotate",
+        "c": "translateZ",
+        "d": "rotateX"
+      },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 10,
+      "description": "1 thẻ có thể vừa có position: absolute vừa có display: flex không",
+      "answers": { "a": "có", "b": "không" },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 11,
+      "description": "thẻ nào sau đây là block element",
+      "answers": { "a": "span", "b": "img", "c": "li", "d": "del" },
+      "code": "",
+      "correct": "c"
+    },
+    {
+      "id": 12,
+      "description": "giá trị mặc định của align-items là",
+      "answers": {
+        "a": "stretch",
+        "b": "flex-start",
+        "c": "center",
+        "d": "flex-end"
+      },
+      "code": "",
+      "correct": "a"
+    },
+    {
+      "id": 13,
+      "description": "các thẻ inline luôn nằm trên 1 hàng trong tất cả các trường hợp",
+      "answers": { "a": "đúng", "b": "sai" },
+      "code": "",
+      "correct": "b"
+    },
+    {
+      "id": 14,
+      "description": "css after, before sử dụng được ở...",
+      "answers": {
+        "a": "Tất cả các thẻ html",
+        "b": "Chỉ những thẻ có thẻ đóng",
+        "c": "Thẻ inline",
+        "d": "Thẻ block"
+      },
+      "code": "",
+      "correct": "b"
+    },
+    {
+      "id": 15,
+      "description": "thuộc tính css nào không tác dụng với thẻ inline",
+      "answers": {
+        "a": "margin-right,margin-left",
+        "b": "height",
+        "c": "padding-top, padding-bottom",
+        "d": "font-size"
+      },
+      "code": "",
+      "correct": "b"
+    }
+  ],
+  "image": "https://genk.mediacdn.vn/thumb_w/690/2019/12/12/11-1575883882-width650height762-1576168363318789958220.jpg"
+}

@@ -1,0 +1,168 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "description": "Font-size mặc định của thẻ h2 là",
+      "answers": {
+        "a": "16px",
+        "b": "30px",
+        "c": "24px",
+        "d": "20px"
+      },
+      "correct": "c"
+    },
+    {
+      "id": 2,
+      "description": "Kết quả của đoạn code bên dưới là",
+      "code": "let x = 5;\nlet x = 10;\nconsole.log(x)",
+      "answers": {
+        "a": "5",
+        "b": "10",
+        "c": "throw an error"
+      },
+      "correct": "c"
+    },
+    {
+      "id": 3,
+      "description": "Kết quả của console.log(true === 'true') là",
+      "answers": {
+        "a": "true",
+        "b": "false",
+        "c": "1",
+        "d": "'true'"
+      },
+      "correct": "b"
+    },
+    {
+      "id": 4,
+      "description": "kết quả của console.log(new String('yes') === new String('yes'))",
+      "answers": {
+        "a": "false",
+        "b": "true",
+        "c": "yes",
+        "d": "throw an error"
+      },
+      "correct": "a"
+    },
+    {
+      "id": 5,
+      "description": "từ khoá nào không có trong scss",
+      "answers": {
+        "a": "mixin",
+        "b": "function",
+        "c": "content",
+        "d": "constructor"
+      },
+      "correct": "d"
+    },
+    {
+      "id": 6,
+      "description": "giá trị nào sau đây thuộc reference type",
+      "answers": {
+        "a": "[]",
+        "b": "true",
+        "c": "'[]'",
+        "d": "1"
+      },
+      "correct": "a"
+    },
+    {
+      "id": 7,
+      "description": "Kết quả của console.log(11 && 3)",
+
+      "answers": {
+        "a": "11",
+        "b": "true",
+        "c": "false",
+        "d": "3"
+      },
+      "correct": "d"
+    },
+    {
+      "id": 8,
+      "description": "Thứ tự thực thi code trong 1 file HTML là",
+      "answers": {
+        "a": "code chạy từ trên xuống, cái nào nhúng trước thì chạy trước",
+        "b": "code chạy css -> html -> js",
+        "c": "code chạy html -> css -> js",
+        "d": "code chạy css -> js -> html"
+      },
+      "correct": "a"
+    },
+    {
+      "id": 9,
+      "description": "nếu 1 function không có return, thì giá trị trả về của nó là",
+      "answers": {
+        "a": "undefined",
+        "b": "null",
+        "c": "nothing"
+      },
+      "correct": "a"
+    },
+    {
+      "id": 10,
+      "description": "Có thể nhúng file css ở dưới thẻ body không?",
+      "answers": {
+        "a": "được",
+        "b": "không"
+      },
+      "correct": "a"
+    },
+    {
+      "id": 11,
+      "description": "có thể nhúng file js ở trên thẻ head không? ",
+      "answers": {
+        "a": "không",
+        "b": "được"
+      },
+      "correct": "b"
+    },
+    {
+      "id": 12,
+      "description": "Ý nghĩa của đoạn code bên dưới",
+      "code": "Math.ceil(Math.random() * 10) + 1",
+      "answers": {
+        "a": "random 1 số từ 2 -> 11",
+        "b": "random 1 số từ 1 -> 10",
+        "c": "random 1 số từ 2 -> 10",
+        "d": "random 1 số từ 1 -> 11"
+      },
+      "correct": "a"
+    },
+    {
+      "id": 13,
+      "description": "kết quả của đoạn code bên dưới",
+      "code": "const number = 10;\nnumber = 20;\nconsole.log(number)",
+      "answers": {
+        "a": "20",
+        "b": "throw an error",
+        "c": "10"
+      },
+      "correct": "b"
+    },
+    {
+      "id": 14,
+      "description": "dấu $ trong jquery là",
+      "answers": {
+        "a": "1 function",
+        "b": "1 class",
+        "c": "không là gì",
+        "d": "1 biến"
+      },
+      "correct": "a"
+    },
+    {
+      "id": 15,
+      "description": "kết quả của đoạn code bên dưới",
+      "code": "[1,2,0].map(val => val == false)",
+      "answers": {
+        "a": "[false, false, true]",
+        "b": "[false, false, false]",
+        "c": "[1,2,0]",
+        "d": "[null,null,null]"
+      },
+      "correct": "a"
+    }
+  ],
+  "image": "http://media.doisongphapluat.com/695/2021/3/27/hot-girl-so-huu-vong-1-108cm-khang-dinh-ban-sexy-chu-khong-hu-02.jpg"
+}
